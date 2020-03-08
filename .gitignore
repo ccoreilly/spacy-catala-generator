@@ -1,0 +1,4 @@
+.DS_Store
+model*
+vectors
+datasets/ca/wikiann-ca.json
