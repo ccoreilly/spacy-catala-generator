@@ -11,7 +11,7 @@ epochs=30
 
 if [ $# -le 4 ]; then
   echo "Usage: $0 <model_name> <model_version> <vectors_path> <train_dir> <dev_dir> --nvectors [vector_size]"
-  echo "E.g.: $0 ca_fasttext_md 1.2.0 cc.ca.300.vec.gz 20000"
+  echo "E.g.: $0 ca_fasttext_md 1.2.0 cc.ca.300.vec.gz train dev --nvectors 50000"
   echo "Train a spacy model.";
   exit 1;
 fi
